@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Extension</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="search-box">
+            <select name="cities-menu" id="cities-menu">
+                <option value="Istanbul">Istanbul</option>
+                <option value="Ankara">Ankara</option>
+                <option value="Izmir">Izmir</option>
+                <option value="Hatay">Hatay</option>
+            </select>
+            <button id="get-forecast-btn" class="btn">Get Forecast</button>
+        </div>
+        <div class="weather-box">
+            <div id="temp" class="temp">15°C</div>
+            <div id="weather-forecast" class="forecast">Sunny</div>
+            <div id="weather-img">
+                <img id="weather-icon" src="" alt="Weather icon">
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
