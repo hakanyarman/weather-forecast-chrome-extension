@@ -15,12 +15,14 @@ body {
   padding: 20px;
   max-width: 300px;
   width: 100%;
+  height: 300px;
 }
 
 .search-box {
-  display: block;
-  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
   margin-bottom: 20px;
+  max-width: max-content;
 }
 
 #cities-menu {
@@ -33,6 +35,7 @@ body {
 
 #error-message {
   display: none;
+  margin-top: 20px;
 }
 
 .btn {
@@ -75,4 +78,9 @@ body {
 #error-message {
   display: none;
   color: red;
+}
+
+#get-forecast-btn {
+  margin-top: 10px;
+  width: max-content;
 }
