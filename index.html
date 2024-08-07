@@ -11,17 +11,13 @@
 <body>
     <div class="container">
         <div class="search-box">
-            <select name="cities-menu" id="cities-menu">
-                <option value="Istanbul">Istanbul</option>
-                <option value="Ankara">Ankara</option>
-                <option value="Izmir">Izmir</option>
-                <option value="Hatay">Hatay</option>
-            </select>
+            <input type="text" placeholder="enter the city" id="city-text-input">
             <button id="get-forecast-btn" class="btn">Get Forecast</button>
+            <div id="error-message">City not found</div>
         </div>
         <div class="weather-box">
-            <div id="temp" class="temp">15°C</div>
-            <div id="weather-forecast" class="forecast">Sunny</div>
+            <div id="temp" class="temp"></div>
+            <div id="weather-forecast" class="forecast"></div>
             <div id="weather-img">
                 <img id="weather-icon" src="" alt="Weather icon">
             </div>

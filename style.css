@@ -18,7 +18,7 @@ body {
 }
 
 .search-box {
-  display: flex;
+  display: block;
   justify-content: space-between;
   margin-bottom: 20px;
 }
@@ -29,6 +29,10 @@ body {
   border-radius: 4px;
   border: 1px solid #ccc;
   margin-right: 10px;
+}
+
+#error-message {
+  display: none;
 }
 
 .btn {
