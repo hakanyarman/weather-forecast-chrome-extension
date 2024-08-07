@@ -49,8 +49,9 @@ body {
   background: #0056b3;
 }
 
-.weather-box {
+#weather-box {
   text-align: center;
+  display: block;
 }
 
 .temp {
@@ -70,4 +71,8 @@ body {
 }
 #weather-icon {
   display: none;
+}
+#error-message {
+  display: none;
+  color: red;
 }
