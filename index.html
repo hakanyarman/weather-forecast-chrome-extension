@@ -13,11 +13,14 @@
         <div class="search-box">
             <input type="text" placeholder="enter the city" id="city-text-input">
             <button id="get-forecast-btn" class="btn">Get Forecast</button>
-            <div id="error-message">City not found</div>
+            <div id="error-message"></div>
         </div>
         <div id="weather-box">
             <div id="temp" class="temp"></div>
             <div id="weather-forecast" class="forecast"></div>
+            <div id="hum"></div>
+            <div id="feels-like"></div>
+            <div id="wind"></div>
             <div id="weather-img">
                 <img id="weather-icon" src="" alt="Weather icon">
             </div>
@@ -25,5 +28,12 @@
     </div>
     <script src="script.js"></script>
 </body>
+<!-- to do:
+ add favorite cities section. (-)
+add city which is user typed to favorites cities. (-)
+add humidity, felt temperature etc. (+)
+beautify the style (+)
+
+-->
 
 </html>
